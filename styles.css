@@ -25,30 +25,6 @@
        url('../fonts/roboto-v29-latin-900.svg#Roboto') format('svg'); /* Legacy iOS */
 }
 
-.header {
-  padding: 10px 16px;
-  background: #fef8d9;
-}
-
-.header h3 {
-  display: inline;
-  padding: 10%;
-}
-
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
-
-.sticky + .content {
-  padding-top: 102px;
-}
-
 body {
   text-align: center;
   background-color: #FFFAED;
@@ -61,6 +37,19 @@ h1 {
   font-size: 6em;
 }
 
+h2 {
+    color: #000000;
+    font-family: 'Roboto';
+    font-size: 3em;
+}
+
+hr {
+    width: 40%;
+    height:7px;
+    border-width:0;
+    background-color: #a6ebef
+}
+
 p {
   font-size: 1.5em;
 }
@@ -71,8 +60,13 @@ a {
   font-family: 'Roboto';
 }
 
-.footer {
-  position: fixed;     
+.content {
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.footer { 
   text-align: center;    
   bottom: 0px; 
   width: 100%;
