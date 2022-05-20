@@ -60,6 +60,10 @@ a {
   font-family: 'Roboto';
 }
 
+address {
+  font-style: normal;
+}
+
 .content {
     margin-top: 5%;
     margin-left: 20%;
