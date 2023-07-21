@@ -3,10 +3,9 @@ import { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
+import { Tooltip } from "react-tooltip";
 
 const Home: NextPage = () => {
-	const [pronunciationShown, setPronunciationShown] = useState(false);
-
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -17,17 +16,17 @@ const Home: NextPage = () => {
 
 			<main className={styles.main}>
 				<div>
-					{pronunciationShown && <div id={styles.pronunciation}>Pronounced "Kip-res Jah-new-ska"</div>}
 					<h1>
 						Hi, I'm{" "}
-						<span id={styles.name} onMouseEnter={() => setPronunciationShown(true)} onMouseLeave={() => setPronunciationShown(false)}>
+						<span id={styles.name} data-tooltip-id={styles.pronunciation} data-tooltip-content={`Pronounced "Kip-res Jah-new-ska"`}>
+							<Tooltip id={styles.pronunciation} />
 							Kipras Januska
 						</span>
 					</h1>
 				</div>
 
 				<p>Welcome to my personal website</p>
-
+		
 				<h2>About me</h2>
 				<p>I am an undergraduate Computer Science student at the University of Michigan, Ann Arbor.</p>
 				<h3>Things I enjoy</h3>

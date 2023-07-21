@@ -39,23 +39,7 @@
   border-bottom: 2px solid #fff;
 }
 
-#pronunciation {	
-	position: absolute;
-	z-index: 1;
-	bottom: 80%;
-	left: 50%;
-	margin-left: -75px;
-	border: 1px solid #fff;
-	padding: 10px;
-}
-
-#pronunciation:after {
-	content: " ";
-	position: absolute;
-	top: 100%;
-	left: 50%;
-	margin-left: -5px;
-	border-width: 7px;
-	border-style: solid;
-	border-color: #fff transparent transparent transparent;
+#pronunciation {
+	font-weight: normal;
+	font-size: 1rem;
 }
