@@ -1,0 +1,31 @@
+.icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.hobby {
+	display: flex;
+    padding: 20px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.info {
+    width: 60%;
+}
+
+.social {
+    flex: 1;
+    align-self: flex-end;
+}
+
+.social > span {
+    opacity: 0.5;
+}
+
+.gif {
+	width: 40%;
+	height: auto;
+}

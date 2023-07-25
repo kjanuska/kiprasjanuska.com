@@ -1,0 +1,38 @@
+[
+	{
+		"title": "Cooking",
+		"description": "I love trying out new cuisines.",
+		"image": "/images/hobbies/cooking.gif",
+		"alt": "Cooking gif"
+	},
+	{
+		"title": "Discovering new music",
+		"description": "I am always looking out for something new.",
+		"image": "/images/hobbies/music.gif",
+		"alt": "Listening to music",
+		"social": {
+			"link": "https://open.spotify.com/user/thefirsttobesecond?si=1caf4195f58d4fec",
+			"icon": "/images/hobbies/spotify.png",
+			"alt": "Spotify icon",
+			"text": "Add me on Spotify"
+		}
+	},
+	{
+		"title": "Lifting weights",
+		"description": "",
+		"image": "/images/hobbies/weights.gif",
+		"alt": "Lifting weights"
+	},
+	{
+		"title": "Watching movies",
+		"description": "",
+		"image": "/images/hobbies/movies.gif",
+		"alt": "Watching movies",
+		"social": {
+			"link": "https://letterboxd.com/SkippyKippy/",
+			"icon": "/images/hobbies/letterboxd.png",
+			"alt": "Letterboxd icon",
+			"text": "Add me on Letterboxd"
+		}
+	}
+]

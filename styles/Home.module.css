@@ -1,15 +1,42 @@
 .container {
 	padding: 0 2rem;
+	max-width: 70%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .main {
 	min-height: 100vh;
 	padding: 4rem 0;
-	flex: 1;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+#contact {
+	display: flex;
+}
+
+#contact > a {
+	flex: 1;
+	padding: 0rem 1rem;
+	margin: 20px;
+}
+
+#contact > a > svg {
+	opacity: 0.5;
+	transform: scale(1.5);
+	transition: 0.2s;
+}
+
+#contact > a > svg:hover {
+	opacity: 1;
+	transition: 0.2s;
+}
+
+.header {
+	margin-top: 50px;
 }
 
 .footer {
@@ -30,9 +57,7 @@
 
 #name {
   border-bottom: 2px dashed #fff;
-  text-decoration: none; 
-  position: relative;
-  display: inline-block;
+  text-decoration: none;
 }
 
 #name:hover {
@@ -42,10 +67,4 @@
 #pronunciation {
 	font-weight: normal;
 	font-size: 1rem;
-}
-
-#enjoyTable > th {
-	padding: 0.5rem 1rem;
-	text-align: left;
-	font-weight: normal;
 }

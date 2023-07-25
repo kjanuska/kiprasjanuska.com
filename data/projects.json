@@ -1,9 +1,26 @@
 [
     {
         "name": "Course Kit",
-        "description": "A course kit for the course"
+        "description": "A tool to help students analyze their chances of getting into a class.",
+        "icon": "/images/projects/coursekit.png",
+        "languages": ["NodeJS", "Python"]
     },
     {
-        
+        "name": "Price Checker API",
+        "description": "Scrape product prices from StockX.",
+        "icon": "",
+        "languages": ["TypeScript"]
+    },
+    {
+        "name": "LDFF Website",
+        "description": "Website for the Lithuanian Documentary Film Festival.",
+        "icon": "/images/projects/ldff.png",
+        "languages": ["HTML", "CSS"]
+    },
+    {
+        "name": "Mood Tracker Chrome Extension",
+        "description": "A Chrome extension that makes it easy to keep track of trends in your mood.",
+        "icon": "",
+        "languages": ["HTML", "CSS", "JavaScript"]
     }
 ]

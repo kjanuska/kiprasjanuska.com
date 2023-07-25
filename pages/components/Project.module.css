@@ -1,8 +1,26 @@
-#card {
-    background-color: #333;
-    border: 1px solid #fff;
+.project {
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
-#name {
+.header {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.name {
     margin: 0px;
+}
+
+.languages{
+    font-style: italic;
+}
+
+.description {
+    margin: 10px 0px;
 }
