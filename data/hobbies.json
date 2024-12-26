@@ -1,38 +1,26 @@
 [
 	{
 		"title": "Cooking",
-		"description": "I love trying out new cuisines.",
-		"image": "/images/hobbies/cooking.gif",
-		"alt": "Cooking gif"
+		"description": "I love adding my own spin to recipes.",
+		"image": "/images/hobbies/Cooking.png",
+		"alt": "Cooking"
 	},
 	{
 		"title": "Discovering new music",
-		"description": "I am always looking out for something new.",
-		"image": "/images/hobbies/music.gif",
-		"alt": "Listening to music",
-		"social": {
-			"link": "https://open.spotify.com/user/thefirsttobesecond?si=1caf4195f58d4fec",
-			"icon": "/images/hobbies/spotify.png",
-			"alt": "Spotify icon",
-			"text": "Add me on Spotify"
-		}
+		"description": "I am always listening to something new.",
+		"image": "/images/hobbies/Music.png",
+		"alt": "Listening to music"
 	},
 	{
-		"title": "Lifting weights",
-		"description": "",
-		"image": "/images/hobbies/weights.gif",
+		"title": "Weightlifting",
+		"description": "I swear I do cardio...",
+		"image": "/images/hobbies/Weights.png",
 		"alt": "Lifting weights"
 	},
 	{
-		"title": "Watching movies",
-		"description": "",
-		"image": "/images/hobbies/movies.gif",
-		"alt": "Watching movies",
-		"social": {
-			"link": "https://letterboxd.com/SkippyKippy/",
-			"icon": "/images/hobbies/letterboxd.png",
-			"alt": "Letterboxd icon",
-			"text": "Add me on Letterboxd"
-		}
+		"title": "Traveling",
+		"description": "I enjoy immersing myself in different cultures.",
+		"image": "/images/hobbies/Traveling.png",
+		"alt": "Traveling"
 	}
 ]

@@ -14,6 +14,15 @@
 	align-items: center;
 }
 
+.container {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.container >h2 {
+	text-align: center;
+}
+
 #contact {
 	display: flex;
 }
@@ -24,15 +33,22 @@
 	margin: 20px;
 }
 
-#contact > a > svg {
+#contact > a {
 	opacity: 0.5;
-	transform: scale(1.5);
 	transition: 0.2s;
 }
 
-#contact > a > svg:hover {
+#contact > a > svg {
+	transform: scale(1.25);
+}
+
+#contact > a:hover {
 	opacity: 1;
 	transition: 0.2s;
+}
+
+#hobbies {
+	padding: 0 100px;
 }
 
 .header {
@@ -67,4 +83,8 @@
 #pronunciation {
 	font-weight: normal;
 	font-size: 1rem;
+}
+
+#projects {
+	width: 100%;
 }

@@ -1,11 +1,15 @@
 .project {
+    display: flex;
+    flex-direction: column;
     padding: 10px;
     margin-bottom: 10px;
 }
 
 .header {
+    display: flex;
+    align-items: center;
     margin-left: 10px;
-    display: inline-block;
+    gap: 10px;
 }
 
 .icon {
@@ -21,6 +25,31 @@
     font-style: italic;
 }
 
-.description {
-    margin: 10px 0px;
+.demoPrompt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    user-select: none;
+}
+
+.demoPrompt:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.flipped {
+    transform: scaleY(-1);
+}
+
+.skills {
+    display: flex;
+    gap: 5px;
+}
+
+.skill {
+    width: 30px;
+    height: auto;
+    opacity: 60%;
+    padding: 5px;
 }

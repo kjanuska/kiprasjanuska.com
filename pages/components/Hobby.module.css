@@ -13,19 +13,13 @@
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
     width: 60%;
 }
 
-.social {
-    flex: 1;
-    align-self: flex-end;
-}
-
-.social > span {
-    opacity: 0.5;
-}
-
-.gif {
+.image {
 	width: 40%;
 	height: auto;
+    object-fit: contain;
 }
