@@ -19,20 +19,20 @@ const Home: NextPage = () => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
+
 			<main className={styles.main}>
 				<div>
-					<h1>
+					<h1 className="handwritten">
 						Hi, I'm{" "}
 						<span id={styles.name} data-tooltip-id={styles.pronunciation} data-tooltip-content={`Pronounced "Kip-res Jah-new-ska"`}>
 							<Tooltip id={styles.pronunciation} />
 							Kipras Januska
 						</span>
-						.
 					</h1>
 				</div>
 
 				<p>
-					Computer Science at the <span className="bold">University of Michigan</span>
+					Computer Science alum X <span className="bold">University of Michigan</span>
 				</p>
 
 				<div id={styles.contact}>
