@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Turbo Takeout",
+		"description": "A casual party game in which two drivers battle to deliver food orders within the time limit.",
+		"icon": "/images/projects/turbo_takeout.png",
+		"skills": ["c-sharp"]
+	},
+	{
+		"name": "Course Kit",
+		"description": "A tool to help students analyze their chances of getting into a class.",
+		"icon": "/images/projects/coursekit.png",
+		"skills": ["javascript", "python"]
+	},
+	{
+		"name": "LDFF Website",
+		"description": "A website for the Lithuanian Documentary Film Festival.",
+		"icon": "/images/projects/ldff.png",
+		"skills": ["html", "css"]
+	},
+	{
+		"name": "Price Checker",
+		"description": "Scrape product prices from StockX.",
+		"icon": "/images/projects/rake.png",
+		"skills": ["typescript"]
+	},
+	{
+		"name": "Hue La La",
+		"description": "A 2D platformer in which you must change colors to solve puzzles.",
+		"icon": "/images/projects/hue_la_la.png",
+		"skills": ["c-sharp"]
+	}
+]

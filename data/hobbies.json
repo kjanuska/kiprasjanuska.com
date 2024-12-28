@@ -1,0 +1,26 @@
+[
+	{
+		"title": "Cooking",
+		"description": "I love adding my own spin to recipes.",
+		"image": "/images/hobbies/Cooking.png",
+		"alt": "Cooking"
+	},
+	{
+		"title": "Discovering new music",
+		"description": "I am always listening to something new.",
+		"image": "/images/hobbies/Music.png",
+		"alt": "Listening to music"
+	},
+	{
+		"title": "Weightlifting",
+		"description": "I swear I do cardio...",
+		"image": "/images/hobbies/Weights.png",
+		"alt": "Lifting weights"
+	},
+	{
+		"title": "Traveling",
+		"description": "I enjoy immersing myself in different cultures.",
+		"image": "/images/hobbies/Traveling.png",
+		"alt": "Traveling"
+	}
+]
